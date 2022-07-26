@@ -1,0 +1,305 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+img{
+    width:100%;
+}
+main{
+    background-image: url("bg.png");
+    background-color: #dedbdb;
+    mask-composite:var(bg);
+}
+body{
+    font-weight: 300;
+    font-family: "Josefin Sans", sans-serif;
+    color: #333;
+    font-size:14px;
+}
+/**************************header**************************/
+.container-fluid{
+    background-color: #f54535;
+}
+.navbar-brand{
+    width:200px;
+    margin-left:80px;
+}
+.navbar-nav{
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    font-size: 22px;
+    margin-right: 80px;
+}
+#active-link{
+    color:rgb(145, 6, 6);
+}
+.nav-link{
+    margin-right:10px;
+    margin-left:10px;
+}
+/**************************main**************************/
+.main-header{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-header-logo{
+    width: 150px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-header-text{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    font-size: x-large;
+    font-weight: 800;
+    color: #009e56;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.main-mid-container{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.mid-events-container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+.siweek-container{
+    max-width: 300px;
+    margin-left: 15px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.siweek-container img{
+    width: 300px;
+    height:450px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.siweek-container img:hover{
+    backdrop-filter: blur (8px);
+    filter: blur(2px);
+    transition: 0.5 ease;
+}
+.siweek{
+    width: 450px;
+    height: 450px;
+}
+.siweek-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    font-size: 50px;
+    color: #ffffff;
+    cursor:pointer;
+}
+.slav-container{
+    max-width: 300px;
+    margin-left: 15px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.slav-container img{
+    width: 300px;
+    height:450px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 15px;   
+}
+.slav-container img:hover{
+    backdrop-filter: blur (8px);
+    filter: blur(2px);
+    transition: 0.5 ease;
+}
+.slav{
+    width: 450px;
+    height: 450px;
+}
+.slav-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    font-size: 50px;
+    color: #ffffff;
+}
+.soar-container{
+    max-width: 300px;
+    margin-left: 15px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.soar-container img{
+    width: 300px;
+    height:450px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.soar-container img:hover{
+    backdrop-filter: blur (8px);
+    filter: blur(2px);
+    transition: 0.5 ease;
+}
+.soar{
+    width: 450px;
+    height: 450px;
+}
+.soar-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    font-size: 50px;
+    color: #ffffff;
+}
+.footer-main-container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    font-size: 20px;
+    color: #009e56;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 15px;
+}
+.card-body{
+    background-color: white;
+}
+#apply-btn{
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    font-size: 34px;
+}
+
+/***************FOOTER**********************/
+footer{
+    background-color: #f54535;
+}
+.footer-logo{
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.soc-med{
+    width: 50px;
+    margin-left: 20px;
+}
+/*******************FAQs Main Container*******************/
+.faqsmain-container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+}
+/************************ROLES******************************/
+.chart{
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.roles-container{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    font-family: 'Space Grotesk';
+    font-size: 30px;
+    padding: 30px;
+}
+/************************EVENTS******************************/
+.clusters-container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width: 576px){
+    #carouselExampleInterval{
+        flex-wrap: wrap;
+    }
+    .mid-events-container{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-bgimg{
+        background-repeat: repeat-y;
+    }
+    .chart{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 960px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .roles-container{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .space{
+        margin-right: 20px;
+    }
+}
